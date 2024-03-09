@@ -26,10 +26,8 @@ function Geekster() {
       setText("");
     }
   };
-
-  
-
   const deleteBtn = (e) => {
+    // console.log(e);
     const value = data.filter((num, i) => {
       return e != i;
     });
