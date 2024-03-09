@@ -62,6 +62,7 @@ function Geekster() {
               placeholder="Hours"
               value={number}
               onChange={showText1}
+              min={0}
             />
             <button
               onClick={showbtn}

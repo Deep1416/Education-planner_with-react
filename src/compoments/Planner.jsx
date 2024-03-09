@@ -10,7 +10,7 @@ function Planner({ name, time, id, deleteBtn }) {
   };
   return (
     <>
-      <div className="w-4/6 mx-auto  px-10 py-11 rounded-md">
+      <div className="w-4/6 mx-auto  px-10 py-6 rounded-md">
         <div className=" w-full flex gap-2 justify-center items-center ">
           <p className="text-2xl font-semibold">{name} - </p>
           <p className=" text-2xl font-semibold ">Hours : {count}</p>
